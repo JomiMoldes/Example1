@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import FrameworkA
+import FrameworkAInterfaces
 
 public protocol MyFrameworkBProtocol {
     var frA: MyFrameworkAProtocol { get }

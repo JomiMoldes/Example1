@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import FrameworkAInterfaces
 
 public class MyFrameworkA: MyFrameworkAProtocol {
     

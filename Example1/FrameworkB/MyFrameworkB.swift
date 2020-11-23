@@ -6,7 +6,8 @@
 //
 
 import Foundation
-import FrameworkA
+import FrameworkAInterfaces
+import FrameworkBInterfaces
 
 public class MyFrameworkB: MyFrameworkBProtocol {
     

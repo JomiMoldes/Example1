@@ -9,6 +9,10 @@ import UIKit
 import FrameworkA
 import FrameworkB
 import FrameworkC
+import FrameworkAInterfaces
+import FrameworkBInterfaces
+import FrameworkCInterfaces
+
 import FeatureA
 
 @main

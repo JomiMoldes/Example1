@@ -629,20 +629,29 @@
 		489C8A75256C561D00A1A598 /* MyStructFeatureC81.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489C89AD256C561C00A1A598 /* MyStructFeatureC81.swift */; };
 		489C8A76256C561D00A1A598 /* MyStructFeatureC197.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489C89AE256C561D00A1A598 /* MyStructFeatureC197.swift */; };
 		489C8A77256C561E00A1A598 /* MyStructFeatureC107.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489C89AF256C561D00A1A598 /* MyStructFeatureC107.swift */; };
-		489C8A93256C591800A1A598 /* MyFrameworkAProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489C8496256C4FFF00A1A598 /* MyFrameworkAProtocol.swift */; };
-		489C8A9D256C592900A1A598 /* MyFrameworkBProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489C84A1256C501C00A1A598 /* MyFrameworkBProtocol.swift */; };
-		489C8AA7256C592F00A1A598 /* MyFrameworkCProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489C84AC256C503700A1A598 /* MyFrameworkCProtocol.swift */; };
-		489C8AD8256C597100A1A598 /* FrameworkB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489C83F6256C4F6000A1A598 /* FrameworkB.framework */; };
-		489C8AFC256C598300A1A598 /* FrameworkA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489C83CC256C4F4100A1A598 /* FrameworkA.framework */; };
-		489C8B00256C598300A1A598 /* FrameworkB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489C83F6256C4F6000A1A598 /* FrameworkB.framework */; };
-		489C8B04256C598300A1A598 /* FrameworkC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489C8423256C4F7100A1A598 /* FrameworkC.framework */; };
-		489C8B60256C5AF900A1A598 /* FrameworkA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489C83CC256C4F4100A1A598 /* FrameworkA.framework */; };
 		489C8B6E256C5B2200A1A598 /* FrameworkA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489C83CC256C4F4100A1A598 /* FrameworkA.framework */; };
 		489C8B6F256C5B2200A1A598 /* FrameworkA.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 489C83CC256C4F4100A1A598 /* FrameworkA.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		489C8B72256C5B2200A1A598 /* FrameworkB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489C83F6256C4F6000A1A598 /* FrameworkB.framework */; };
 		489C8B73256C5B2200A1A598 /* FrameworkB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 489C83F6256C4F6000A1A598 /* FrameworkB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		489C8B76256C5B2200A1A598 /* FrameworkC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489C8423256C4F7100A1A598 /* FrameworkC.framework */; };
 		489C8B77256C5B2200A1A598 /* FrameworkC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 489C8423256C4F7100A1A598 /* FrameworkC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		489C8BB3256C5FD800A1A598 /* MyFrameworkAProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489C8496256C4FFF00A1A598 /* MyFrameworkAProtocol.swift */; };
+		489C8BC6256C5FDE00A1A598 /* MyFrameworkBProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489C84A1256C501C00A1A598 /* MyFrameworkBProtocol.swift */; };
+		489C8BD0256C5FE200A1A598 /* MyFrameworkCProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489C84AC256C503700A1A598 /* MyFrameworkCProtocol.swift */; };
+		489C8BDA256C5FF200A1A598 /* FrameworkAInterfaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489C83E1256C4F5500A1A598 /* FrameworkAInterfaces.framework */; };
+		489C8BF0256C600000A1A598 /* FrameworkAInterfaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489C83E1256C4F5500A1A598 /* FrameworkAInterfaces.framework */; };
+		489C8BF4256C600000A1A598 /* FrameworkBInterfaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489C840C256C4F6800A1A598 /* FrameworkBInterfaces.framework */; };
+		489C8C02256C600E00A1A598 /* FrameworkBInterfaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489C840C256C4F6800A1A598 /* FrameworkBInterfaces.framework */; };
+		489C8C06256C600E00A1A598 /* FrameworkCInterfaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489C843B256C4F7900A1A598 /* FrameworkCInterfaces.framework */; };
+		489C8C37256C602200A1A598 /* FrameworkAInterfaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489C83E1256C4F5500A1A598 /* FrameworkAInterfaces.framework */; };
+		489C8C3B256C602200A1A598 /* FrameworkBInterfaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489C840C256C4F6800A1A598 /* FrameworkBInterfaces.framework */; };
+		489C8C3F256C602200A1A598 /* FrameworkCInterfaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489C843B256C4F7900A1A598 /* FrameworkCInterfaces.framework */; };
+		489C8C5E256C608C00A1A598 /* FrameworkAInterfaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489C83E1256C4F5500A1A598 /* FrameworkAInterfaces.framework */; };
+		489C8C5F256C608C00A1A598 /* FrameworkAInterfaces.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 489C83E1256C4F5500A1A598 /* FrameworkAInterfaces.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		489C8C62256C608C00A1A598 /* FrameworkBInterfaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489C840C256C4F6800A1A598 /* FrameworkBInterfaces.framework */; };
+		489C8C63256C608C00A1A598 /* FrameworkBInterfaces.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 489C840C256C4F6800A1A598 /* FrameworkBInterfaces.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		489C8C66256C608C00A1A598 /* FrameworkCInterfaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489C843B256C4F7900A1A598 /* FrameworkCInterfaces.framework */; };
+		489C8C67256C608C00A1A598 /* FrameworkCInterfaces.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 489C843B256C4F7900A1A598 /* FrameworkCInterfaces.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -681,41 +690,6 @@
 			remoteGlobalIDString = 489C840B256C4F6800A1A598;
 			remoteInfo = FrameworkBInterfaces;
 		};
-		489C8ADA256C597100A1A598 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 489C8386256C4EC400A1A598 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 489C83F5256C4F6000A1A598;
-			remoteInfo = FrameworkB;
-		};
-		489C8AFE256C598300A1A598 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 489C8386256C4EC400A1A598 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 489C83CB256C4F4100A1A598;
-			remoteInfo = FrameworkA;
-		};
-		489C8B02256C598300A1A598 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 489C8386256C4EC400A1A598 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 489C83F5256C4F6000A1A598;
-			remoteInfo = FrameworkB;
-		};
-		489C8B06256C598300A1A598 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 489C8386256C4EC400A1A598 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 489C8422256C4F7100A1A598;
-			remoteInfo = FrameworkC;
-		};
-		489C8B62256C5AF900A1A598 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 489C8386256C4EC400A1A598 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 489C83CB256C4F4100A1A598;
-			remoteInfo = FrameworkA;
-		};
 		489C8B70256C5B2200A1A598 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 489C8386256C4EC400A1A598 /* Project object */;
@@ -737,6 +711,83 @@
 			remoteGlobalIDString = 489C8422256C4F7100A1A598;
 			remoteInfo = FrameworkC;
 		};
+		489C8BDC256C5FF200A1A598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 489C8386256C4EC400A1A598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 489C83E0256C4F5500A1A598;
+			remoteInfo = FrameworkAInterfaces;
+		};
+		489C8BF2256C600000A1A598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 489C8386256C4EC400A1A598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 489C83E0256C4F5500A1A598;
+			remoteInfo = FrameworkAInterfaces;
+		};
+		489C8BF6256C600000A1A598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 489C8386256C4EC400A1A598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 489C840B256C4F6800A1A598;
+			remoteInfo = FrameworkBInterfaces;
+		};
+		489C8C04256C600E00A1A598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 489C8386256C4EC400A1A598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 489C840B256C4F6800A1A598;
+			remoteInfo = FrameworkBInterfaces;
+		};
+		489C8C08256C600E00A1A598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 489C8386256C4EC400A1A598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 489C843A256C4F7900A1A598;
+			remoteInfo = FrameworkCInterfaces;
+		};
+		489C8C39256C602200A1A598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 489C8386256C4EC400A1A598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 489C83E0256C4F5500A1A598;
+			remoteInfo = FrameworkAInterfaces;
+		};
+		489C8C3D256C602200A1A598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 489C8386256C4EC400A1A598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 489C840B256C4F6800A1A598;
+			remoteInfo = FrameworkBInterfaces;
+		};
+		489C8C41256C602200A1A598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 489C8386256C4EC400A1A598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 489C843A256C4F7900A1A598;
+			remoteInfo = FrameworkCInterfaces;
+		};
+		489C8C60256C608C00A1A598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 489C8386256C4EC400A1A598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 489C83E0256C4F5500A1A598;
+			remoteInfo = FrameworkAInterfaces;
+		};
+		489C8C64256C608C00A1A598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 489C8386256C4EC400A1A598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 489C840B256C4F6800A1A598;
+			remoteInfo = FrameworkBInterfaces;
+		};
+		489C8C68256C608C00A1A598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 489C8386256C4EC400A1A598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 489C843A256C4F7900A1A598;
+			remoteInfo = FrameworkCInterfaces;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -746,10 +797,13 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				489C8C67256C608C00A1A598 /* FrameworkCInterfaces.framework in Embed Frameworks */,
+				489C8C63256C608C00A1A598 /* FrameworkBInterfaces.framework in Embed Frameworks */,
 				489C8B73256C5B2200A1A598 /* FrameworkB.framework in Embed Frameworks */,
 				489C8B77256C5B2200A1A598 /* FrameworkC.framework in Embed Frameworks */,
 				489C847E256C4FA200A1A598 /* FeatureA.framework in Embed Frameworks */,
 				489C8B6F256C5B2200A1A598 /* FrameworkA.framework in Embed Frameworks */,
+				489C8C5F256C608C00A1A598 /* FrameworkAInterfaces.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1405,10 +1459,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				489C8C66256C608C00A1A598 /* FrameworkCInterfaces.framework in Frameworks */,
+				489C8C62256C608C00A1A598 /* FrameworkBInterfaces.framework in Frameworks */,
 				489C8B72256C5B2200A1A598 /* FrameworkB.framework in Frameworks */,
 				489C8B76256C5B2200A1A598 /* FrameworkC.framework in Frameworks */,
 				489C847D256C4FA200A1A598 /* FeatureA.framework in Frameworks */,
 				489C8B6E256C5B2200A1A598 /* FrameworkA.framework in Frameworks */,
+				489C8C5E256C608C00A1A598 /* FrameworkAInterfaces.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1430,6 +1487,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				489C8BDA256C5FF200A1A598 /* FrameworkAInterfaces.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1444,7 +1502,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				489C8B60256C5AF900A1A598 /* FrameworkA.framework in Frameworks */,
+				489C8BF4256C600000A1A598 /* FrameworkBInterfaces.framework in Frameworks */,
+				489C8BF0256C600000A1A598 /* FrameworkAInterfaces.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1460,7 +1519,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				489C8AD8256C597100A1A598 /* FrameworkB.framework in Frameworks */,
+				489C8C02256C600E00A1A598 /* FrameworkBInterfaces.framework in Frameworks */,
+				489C8C06256C600E00A1A598 /* FrameworkCInterfaces.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1476,9 +1536,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				489C8B00256C598300A1A598 /* FrameworkB.framework in Frameworks */,
-				489C8AFC256C598300A1A598 /* FrameworkA.framework in Frameworks */,
-				489C8B04256C598300A1A598 /* FrameworkC.framework in Frameworks */,
+				489C8C3F256C602200A1A598 /* FrameworkCInterfaces.framework in Frameworks */,
+				489C8C3B256C602200A1A598 /* FrameworkBInterfaces.framework in Frameworks */,
+				489C8C37256C602200A1A598 /* FrameworkAInterfaces.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1554,7 +1614,6 @@
 		489C83CD256C4F4100A1A598 /* FrameworkA */ = {
 			isa = PBXGroup;
 			children = (
-				489C8496256C4FFF00A1A598 /* MyFrameworkAProtocol.swift */,
 				489C8674256C55B400A1A598 /* MyStructFeatureA0.swift */,
 				489C8630256C55AD00A1A598 /* MyStructFeatureA1.swift */,
 				489C8653256C55B100A1A598 /* MyStructFeatureA2.swift */,
@@ -1765,6 +1824,7 @@
 		489C83E2256C4F5500A1A598 /* FrameworkAInterfaces */ = {
 			isa = PBXGroup;
 			children = (
+				489C8496256C4FFF00A1A598 /* MyFrameworkAProtocol.swift */,
 				489C83E3256C4F5500A1A598 /* FrameworkAInterfaces.h */,
 				489C83E4256C4F5500A1A598 /* Info.plist */,
 			);
@@ -1774,7 +1834,6 @@
 		489C83F7256C4F6000A1A598 /* FrameworkB */ = {
 			isa = PBXGroup;
 			children = (
-				489C84A1256C501C00A1A598 /* MyFrameworkBProtocol.swift */,
 				489C87E6256C55DB00A1A598 /* MyStructFeatureB0.swift */,
 				489C87EC256C55DC00A1A598 /* MyStructFeatureB1.swift */,
 				489C8788256C55D000A1A598 /* MyStructFeatureB2.swift */,
@@ -1985,6 +2044,7 @@
 		489C840D256C4F6800A1A598 /* FrameworkBInterfaces */ = {
 			isa = PBXGroup;
 			children = (
+				489C84A1256C501C00A1A598 /* MyFrameworkBProtocol.swift */,
 				489C840E256C4F6800A1A598 /* FrameworkBInterfaces.h */,
 				489C840F256C4F6800A1A598 /* Info.plist */,
 			);
@@ -1994,7 +2054,6 @@
 		489C8424256C4F7100A1A598 /* FrameworkC */ = {
 			isa = PBXGroup;
 			children = (
-				489C84AC256C503700A1A598 /* MyFrameworkCProtocol.swift */,
 				489C8938256C560C00A1A598 /* MyStructFeatureC0.swift */,
 				489C894E256C560F00A1A598 /* MyStructFeatureC1.swift */,
 				489C8930256C560A00A1A598 /* MyStructFeatureC2.swift */,
@@ -2205,6 +2264,7 @@
 		489C843C256C4F7900A1A598 /* FrameworkCInterfaces */ = {
 			isa = PBXGroup;
 			children = (
+				489C84AC256C503700A1A598 /* MyFrameworkCProtocol.swift */,
 				489C843D256C4F7900A1A598 /* FrameworkCInterfaces.h */,
 				489C843E256C4F7900A1A598 /* Info.plist */,
 			);
@@ -2306,6 +2366,9 @@
 				489C8B71256C5B2200A1A598 /* PBXTargetDependency */,
 				489C8B75256C5B2200A1A598 /* PBXTargetDependency */,
 				489C8B79256C5B2200A1A598 /* PBXTargetDependency */,
+				489C8C61256C608C00A1A598 /* PBXTargetDependency */,
+				489C8C65256C608C00A1A598 /* PBXTargetDependency */,
+				489C8C69256C608C00A1A598 /* PBXTargetDependency */,
 			);
 			name = Example1;
 			productName = Example1;
@@ -2360,6 +2423,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				489C8BDD256C5FF200A1A598 /* PBXTargetDependency */,
 			);
 			name = FrameworkA;
 			productName = FrameworkA;
@@ -2396,7 +2460,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				489C8B63256C5AF900A1A598 /* PBXTargetDependency */,
+				489C8BF3256C600000A1A598 /* PBXTargetDependency */,
+				489C8BF7256C600000A1A598 /* PBXTargetDependency */,
 			);
 			name = FrameworkB;
 			productName = FrameworkB;
@@ -2434,7 +2499,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				489C8ADB256C597100A1A598 /* PBXTargetDependency */,
+				489C8C05256C600E00A1A598 /* PBXTargetDependency */,
+				489C8C09256C600E00A1A598 /* PBXTargetDependency */,
 			);
 			name = FrameworkC;
 			productName = FrameworkC;
@@ -2472,9 +2538,9 @@
 			buildRules = (
 			);
 			dependencies = (
-				489C8AFF256C598300A1A598 /* PBXTargetDependency */,
-				489C8B03256C598300A1A598 /* PBXTargetDependency */,
-				489C8B07256C598300A1A598 /* PBXTargetDependency */,
+				489C8C3A256C602200A1A598 /* PBXTargetDependency */,
+				489C8C3E256C602200A1A598 /* PBXTargetDependency */,
+				489C8C42256C602200A1A598 /* PBXTargetDependency */,
 			);
 			name = FeatureA;
 			productName = FeatureA;
@@ -2848,7 +2914,6 @@
 				489C86F6256C55B600A1A598 /* MyStructFeatureA47.swift in Sources */,
 				489C86C9256C55B600A1A598 /* MyStructFeatureA137.swift in Sources */,
 				489C86A4256C55B600A1A598 /* MyStructFeatureA92.swift in Sources */,
-				489C8A93256C591800A1A598 /* MyFrameworkAProtocol.swift in Sources */,
 				489C8734256C55B600A1A598 /* MyStructFeatureA148.swift in Sources */,
 				489C8744256C55B600A1A598 /* MyStructFeatureA175.swift in Sources */,
 				489C86B8256C55B600A1A598 /* MyStructFeatureA182.swift in Sources */,
@@ -2873,6 +2938,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				489C8BB3256C5FD800A1A598 /* MyFrameworkAProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3009,7 +3075,6 @@
 				489C88C5256C55E200A1A598 /* MyStructFeatureB8.swift in Sources */,
 				489C8836256C55E100A1A598 /* MyStructFeatureB115.swift in Sources */,
 				489C88CC256C55E200A1A598 /* MyStructFeatureB145.swift in Sources */,
-				489C8A9D256C592900A1A598 /* MyFrameworkBProtocol.swift in Sources */,
 				489C883B256C55E200A1A598 /* MyStructFeatureB83.swift in Sources */,
 				489C88C7256C55E200A1A598 /* MyStructFeatureB44.swift in Sources */,
 				489C882E256C55E100A1A598 /* MyStructFeatureB81.swift in Sources */,
@@ -3089,6 +3154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				489C8BC6256C5FDE00A1A598 /* MyFrameworkBProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3148,7 +3214,6 @@
 				489C8A74256C561D00A1A598 /* MyStructFeatureC145.swift in Sources */,
 				489C8A3E256C561D00A1A598 /* MyStructFeatureC16.swift in Sources */,
 				489C89B4256C561D00A1A598 /* MyStructFeatureC182.swift in Sources */,
-				489C8AA7256C592F00A1A598 /* MyFrameworkCProtocol.swift in Sources */,
 				489C8A18256C561D00A1A598 /* MyStructFeatureC123.swift in Sources */,
 				489C8A70256C561D00A1A598 /* MyStructFeatureC151.swift in Sources */,
 				489C89CA256C561D00A1A598 /* MyStructFeatureC118.swift in Sources */,
@@ -3305,6 +3370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				489C8BD0256C5FE200A1A598 /* MyFrameworkCProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3344,31 +3410,6 @@
 			target = 489C840B256C4F6800A1A598 /* FrameworkBInterfaces */;
 			targetProxy = 489C8526256C536900A1A598 /* PBXContainerItemProxy */;
 		};
-		489C8ADB256C597100A1A598 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 489C83F5256C4F6000A1A598 /* FrameworkB */;
-			targetProxy = 489C8ADA256C597100A1A598 /* PBXContainerItemProxy */;
-		};
-		489C8AFF256C598300A1A598 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 489C83CB256C4F4100A1A598 /* FrameworkA */;
-			targetProxy = 489C8AFE256C598300A1A598 /* PBXContainerItemProxy */;
-		};
-		489C8B03256C598300A1A598 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 489C83F5256C4F6000A1A598 /* FrameworkB */;
-			targetProxy = 489C8B02256C598300A1A598 /* PBXContainerItemProxy */;
-		};
-		489C8B07256C598300A1A598 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 489C8422256C4F7100A1A598 /* FrameworkC */;
-			targetProxy = 489C8B06256C598300A1A598 /* PBXContainerItemProxy */;
-		};
-		489C8B63256C5AF900A1A598 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 489C83CB256C4F4100A1A598 /* FrameworkA */;
-			targetProxy = 489C8B62256C5AF900A1A598 /* PBXContainerItemProxy */;
-		};
 		489C8B71256C5B2200A1A598 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 489C83CB256C4F4100A1A598 /* FrameworkA */;
@@ -3383,6 +3424,61 @@
 			isa = PBXTargetDependency;
 			target = 489C8422256C4F7100A1A598 /* FrameworkC */;
 			targetProxy = 489C8B78256C5B2200A1A598 /* PBXContainerItemProxy */;
+		};
+		489C8BDD256C5FF200A1A598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 489C83E0256C4F5500A1A598 /* FrameworkAInterfaces */;
+			targetProxy = 489C8BDC256C5FF200A1A598 /* PBXContainerItemProxy */;
+		};
+		489C8BF3256C600000A1A598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 489C83E0256C4F5500A1A598 /* FrameworkAInterfaces */;
+			targetProxy = 489C8BF2256C600000A1A598 /* PBXContainerItemProxy */;
+		};
+		489C8BF7256C600000A1A598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 489C840B256C4F6800A1A598 /* FrameworkBInterfaces */;
+			targetProxy = 489C8BF6256C600000A1A598 /* PBXContainerItemProxy */;
+		};
+		489C8C05256C600E00A1A598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 489C840B256C4F6800A1A598 /* FrameworkBInterfaces */;
+			targetProxy = 489C8C04256C600E00A1A598 /* PBXContainerItemProxy */;
+		};
+		489C8C09256C600E00A1A598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 489C843A256C4F7900A1A598 /* FrameworkCInterfaces */;
+			targetProxy = 489C8C08256C600E00A1A598 /* PBXContainerItemProxy */;
+		};
+		489C8C3A256C602200A1A598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 489C83E0256C4F5500A1A598 /* FrameworkAInterfaces */;
+			targetProxy = 489C8C39256C602200A1A598 /* PBXContainerItemProxy */;
+		};
+		489C8C3E256C602200A1A598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 489C840B256C4F6800A1A598 /* FrameworkBInterfaces */;
+			targetProxy = 489C8C3D256C602200A1A598 /* PBXContainerItemProxy */;
+		};
+		489C8C42256C602200A1A598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 489C843A256C4F7900A1A598 /* FrameworkCInterfaces */;
+			targetProxy = 489C8C41256C602200A1A598 /* PBXContainerItemProxy */;
+		};
+		489C8C61256C608C00A1A598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 489C83E0256C4F5500A1A598 /* FrameworkAInterfaces */;
+			targetProxy = 489C8C60256C608C00A1A598 /* PBXContainerItemProxy */;
+		};
+		489C8C65256C608C00A1A598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 489C840B256C4F6800A1A598 /* FrameworkBInterfaces */;
+			targetProxy = 489C8C64256C608C00A1A598 /* PBXContainerItemProxy */;
+		};
+		489C8C69256C608C00A1A598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 489C843A256C4F7900A1A598 /* FrameworkCInterfaces */;
+			targetProxy = 489C8C68256C608C00A1A598 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

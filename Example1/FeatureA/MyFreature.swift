@@ -6,9 +6,9 @@
 //
 
 import Foundation
-import FrameworkA
-import FrameworkB
-import FrameworkC
+import FrameworkAInterfaces
+import FrameworkBInterfaces
+import FrameworkCInterfaces
 
 public class MyClass {
     public let frA: MyFrameworkAProtocol

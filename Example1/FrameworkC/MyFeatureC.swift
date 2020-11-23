@@ -6,7 +6,8 @@
 //
 
 import Foundation
-import FrameworkB
+import FrameworkBInterfaces
+import FrameworkCInterfaces
 
 public class MyFrameworkC: MyFrameworkCProtocol {
     
