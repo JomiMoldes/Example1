@@ -1,2 +1,7 @@
 .DS_Store
 Example1/.DS_Store
+
+Example1.xcodeproj/project.xcworkspace/xcuserdata/*
+Example1.xcodeproj/xcshareddata/*
+
+xample1.xcodeproj/xcuserdata/*
