@@ -15,7 +15,7 @@ import FrameworkCInterfaces
 
 import FeatureA
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
