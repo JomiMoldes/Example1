@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		489C8392256C4EC400A1A598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489C8391256C4EC400A1A598 /* AppDelegate.swift */; };
 		489C8396256C4EC400A1A598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489C8395256C4EC400A1A598 /* ViewController.swift */; };
 		489C8399256C4EC400A1A598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 489C8397256C4EC400A1A598 /* Main.storyboard */; };
 		489C839B256C4EC800A1A598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 489C839A256C4EC800A1A598 /* Assets.xcassets */; };
@@ -643,6 +642,7 @@
 		489C8B73256C5B2200A1A598 /* FrameworkB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 489C83F6256C4F6000A1A598 /* FrameworkB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		489C8B76256C5B2200A1A598 /* FrameworkC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489C8423256C4F7100A1A598 /* FrameworkC.framework */; };
 		489C8B77256C5B2200A1A598 /* FrameworkC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 489C8423256C4F7100A1A598 /* FrameworkC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		89C4AE87257177B400F52AE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489C8391256C4EC400A1A598 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -2639,8 +2639,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89C4AE87257177B400F52AE1 /* AppDelegate.swift in Sources */,
 				489C8396256C4EC400A1A598 /* ViewController.swift in Sources */,
-				489C8392256C4EC400A1A598 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3457,13 +3457,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -3512,12 +3513,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

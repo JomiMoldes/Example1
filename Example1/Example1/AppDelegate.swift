@@ -11,7 +11,7 @@ import FrameworkB
 import FrameworkC
 import FeatureA
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
